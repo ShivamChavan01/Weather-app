@@ -1,0 +1,36 @@
+.weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weather-details div {
+    margin-right: 10px;
+  }
+  
+  .city {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .temperature {
+    font-size: 24px;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .weather-details {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .weather-details div {
+      margin-bottom: 10px; 
+    }
+  }
+  

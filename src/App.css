@@ -1,0 +1,60 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-title {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 5px;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-details div {
+  margin-right: 10px;
+}
+
+.city {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.temperature {
+  font-size: 24px;
+}
